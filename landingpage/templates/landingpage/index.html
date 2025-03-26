@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malhis-Tech | Innovative Software Solutions</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head> -->
+    <script src="https://kit.fontawesome.com/f74ffa9ca2.js" crossorigin="anonymous"></script>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">Malhis-Tech</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Building the Future with Innovative Software</h1>
+            <p>We craft bespoke software solutions to drive your business forward.</p>
+            <a href="#contact" class="button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Malhis-Tech is a dynamic and forward-thinking technology company dedicated to providing high-quality software development services. Founded in 2025, our mission is to empower businesses of all sizes with innovative and reliable software solutions that solve complex challenges and drive growth. We are committed to understanding our clients' unique needs and delivering tailored solutions that exceed expectations. Our core values include innovation, quality, collaboration, and client satisfaction.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Custom Software Development</h3>
+                    <p>We design and develop tailored software applications to meet your specific business requirements.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>We create engaging and user-friendly mobile applications for iOS and Android platforms.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Development</h3>
+                    <p>We build responsive and dynamic websites and web applications using the latest technologies.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Solutions</h3>
+                    <p>We offer cloud consulting, migration, and management services to enhance your business agility and efficiency.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>IT Consulting</h3>
+                    <p>Our experienced consultants provide strategic IT guidance to help you achieve your business goals.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-bug"></i>
+                    <h3>Quality Assurance</h3>
+                    <p>We provide comprehensive testing services to ensure the reliability and performance of your software.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="section">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Client-Centric Approach</h3>
+                    <p>We prioritize understanding your needs and building long-term relationships.</p>
+                </div>
+                <div class="why-us-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Experienced Team</h3>
+                    <p>Our team comprises skilled and passionate professionals dedicated to excellence.</p>
+                </div>
+                <div class="why-us-item">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Cost-Effective Solutions</h3>
+                    <p>We offer high-quality services at competitive prices.</p>
+                </div>
+                <div class="why-us-item">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Innovation & Quality</h3>
+                    <p>We leverage the latest technologies to deliver innovative and reliable solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section bg-light">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="{% static 'images/kareem.jpg' %}" alt="Kareem Malhis">
+                    <h3>Kareem Malhis</h3>
+                    <p>Full-Stack Developer</p>
+                    <p>With 1.5 years of experience, Kareem is passionate about creating robust and efficient software solutions.</p>
+                </div>
+                <div class="team-member">
+                    <img src="{% static 'images/zain.jpg' %}" alt="Zain Haj Hammad">
+                    <h3>Zain Haj Hammad</h3>
+                    <p>QA Engineer</p>
+                    <p>Zain brings 2 years of experience in ensuring software quality, with previous roles at ITG and Apple.</p>
+                </div>
+                </div>
+            <p class="team-note">Our team is dedicated to providing exceptional software development and quality assurance services.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you. Please fill out the form below or reach us directly.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: info@malhis-tech.com</p>
+                <p><i class="fas fa-phone"></i> Phone: +598-150-687</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: [Your Company Address]</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Malhis-Tech. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
